@@ -15,7 +15,7 @@ library(glm)
 set.seed(42)
 
 #Read the data and split it
-data = read.csv("C:/Users/ROHAN/AppData/Roaming/SPB_Data/creditcard.csv")
+data = read.csv("C:/Users/ROHAN/AppData/Roaming/SPB_Data/creditcard.csv", sep=",")
 
 split <- sample(2, nrow(data), replace=TRUE, prob = c(0.7,0.3))
 train = data[split == 1,]
