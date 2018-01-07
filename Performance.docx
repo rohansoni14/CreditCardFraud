@@ -1,0 +1,12 @@
+PERFORMANCE
+
+	                         GBM	      XGBOOST	    XGBOOST.HIST    	LIGHTGBM	LOGISTIC REGRESSION
+    SPEED	                454.97	    20.0871 		    4.10	          2.85	     	 9.763
+AREA UNDER AUC CURVE	    0.9498	    0.963	    		0.9654	      	 0.9667	   	  0.9654
+
+
+CONFUSION MATRIX (logistic regression)
+
+	  FALSE	  TRUE
+0	  198776	35
+1	  137   	191
