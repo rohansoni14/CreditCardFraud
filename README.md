@@ -10,3 +10,5 @@ Models used:
 3. XGBOOST with histogram
 4. LIGHTGBM
 5. LOGISTIC REGRESSION
+
+Data source - Andrea Dal Pozzolo, Olivier Caelen, Reid A. Johnson and Gianluca Bontempi. Calibrating Probability with Undersampling for Unbalanced Classification. In Symposium on Computational Intelligence and Data Mining (CIDM), IEEE, 2015
